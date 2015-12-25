@@ -12,12 +12,13 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header">
-				<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
+				<%= image_tag('avatar.png', class: 'image avatar')%>
 				<h1><strong>I am Strata</strong>, a super simple<br />
 				responsive site template freebie<br />
 				crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
@@ -441,10 +442,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					<li><a href="http://linkedin.com/in/StyxxC" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+					<li><a href="http://github.com/Styxx" class="icon fa-github"><span class="label">Github</span></a></li>
+					<!-- TODO: Change mailto to a popup that shows the e-mail address -->
+					<li><a href="mailto:v-chang45@live.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					<li><a href="https://db.tt/vK2edMiA" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
 				</ul>
 				<ul class="copyright">
 					<li>&copy; 2015 Vincent Chang</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
