@@ -13,3 +13,4 @@ Looking into:
 * Adding **employment/schooling** section
 * Adding **projects** section
 * Adding **working on/learning** section
+* Cleaning up Font Awesome remains
