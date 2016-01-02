@@ -9,7 +9,6 @@ Here are all the files if you're curious about how the page is built.
 
 
 Looking into:
-* **[Amplitude.js](https://open.521dimensions.com/amplitudejs)** for music?
 * Adding **employment/schooling** section
 * Adding **projects** section
 * Adding **working on/learning** section

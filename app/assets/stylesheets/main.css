@@ -1565,8 +1565,9 @@
 			transition: none !important;
 		}
 
+	/* Normal text */
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #646464;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1582,16 +1583,17 @@
 		color: #49bf9d;
 		text-decoration: none;
 	}
-
+		/* Sidebar link hover color */
 		a:hover {
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
 			text-decoration: none;
 		}
 
+	/* ALL Bolded text */
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		color: #000000;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -1602,9 +1604,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	/* Paragraph header text color */
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
+		color: #232323;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2332,7 +2335,7 @@
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #787878 !important;		/* Button text color */
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2346,14 +2349,17 @@
 		white-space: nowrap;
 	}
 
+		
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
+			border-color: #49bf9d;				/* Button hover color */
 			color: #49bf9d !important;
 		}
 
+		/* ??? */
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
@@ -2405,7 +2411,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #49bf9d;
+			background-color: #49bf9d;				/* Lightest */
 			border-color: #49bf9d;
 			color: #ffffff !important;
 		}
@@ -2414,7 +2420,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5cc6a7;
+				background-color: #5cc6a7;			/* Medium */
 				border-color: #5cc6a7;
 			}
 
@@ -2422,7 +2428,7 @@
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #3eb08f;
+				background-color: #3eb08f;			/* Darkest */
 				border-color: #3eb08f;
 			}
 
@@ -2488,7 +2494,9 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			/* rgba(255, 255, 255, [0.5]); 1 is white, 0 is transparent */
+			/* 0.7 is nice */
+			color: rgba(255, 255, 255, 0.75);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2515,11 +2523,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.5);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -2908,8 +2916,8 @@
 
 			#header {
 				background-attachment: scroll;
-				background-position: top left, center center;
-				background-size: auto,		cover;
+				background-position: top, center center;
+				background-size: 200%,	cover;
 				left: auto;
 				padding: 6em 4em;
 				position: relative;
