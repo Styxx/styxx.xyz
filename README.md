@@ -9,7 +9,5 @@ Here are all the files if you're curious about how the page is built.
 
 
 Looking into:
-* Adding **employment/schooling** section
-* Adding **projects** section
-* Adding **working on/learning** section
 * Cleaning up Font Awesome remains
+* Adding beginning blurb
