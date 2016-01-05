@@ -18,7 +18,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<%= image_tag('avatar.png', class: 'image avatar', alt: "Hey, that's me!") %>
+				<%= image_tag('profile_cropped.jpg', class: 'image avatar', alt: "Hey, that's me!") %>
 				<h1><strong>Hi. I'm Vincent</strong>, student at the <br />
 				University of California, Santa Barbara <br />
 				studying <strong>Computer Engineering</strong>.</h1>
@@ -30,10 +30,15 @@
 				<!-- Intro -->
 					<section id="intro">
 						<header class="major">
-							<h2>Ipsum lorem dolor aliquam ante commodo<br />
-							magna sed accumsan arcu neque.</h2>
+							<h2>I like to code.</h2>
 						</header>
-						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+						
+						<p>
+								
+							
+							
+						</p>
+						
 						<!-- Link to blog?
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
@@ -44,30 +49,59 @@
 				<!-- Experience -->
 					<section id="experience">
 						<h2>Experience and Projects</h2>
-						<!-- <div class="row"> --> <!-- 2 column layout if used -->
+						<div class="row"> <!-- 2 column layout if used -->
 							<!-- Need to resize all pictures to same aspect ratio -->
 							<!-- Need to do it in code with width:/length: tags -->
 							<article class="6u 12u$(xsmall) work-item">
 								<%= image_tag('proofpoint_logo.png', class: 'image fit thumb') %>
+							<!--	image_tag("/icons/icon.gif", height: '32', width: '32') -->
 								<h3><strong>Intern at Proofpoint Inc.</strong></h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<p>
+									I spent a summer as a Production Service Engineering Intern at Proofpoint. Working in 
+									Operations there gave me my first glimpse into the industry. While there, I developed a 
+									graphical tool to assist the department in monitoring the status of their hypervisors. 
+									I also learned a great deal about the system configuration language  <strong>Puppet</strong>. 
+									Overall, it was a fantastic experience and one of the influences in my attempting to learn 
+									more about security!
+								</p>
 							</article>
+							
 							<article class="6u$ 12u$(xsmall) work-item">
 								<%= image_tag('mezzo_title_logo.png', class: 'image fit thumb') %>
 								<h3><strong>Mezzo</strong></h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<p>
+									While I interned at Proofpoint, I was learning Ruby on Rails on the side and the Senior 
+									Capstone Project was a perfect opportunity to practice my basic knowledge of Rails while 
+									experiencing Agile Development for the first time. Created with the help of  
+									<strong><font color="#00ADD3">Appfolio</font></strong>, 
+									<!--<a href="http://www.mezzo.rocks">Mezzo</a>-->Mezzo is a social media app designed to bring local 
+									musicians together, and is one of the projects I am currently working on with my colleagues.
+								</p>
 							</article>
-						<!--
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<%= image_tag('foam_core.jpg', class: 'image fit thumb') %>
+								<h3><strong>Airplane Foam Core CNC</strong></h3>
+								<p>
+									My first foray into engineering was right before college, where an Electrical Engineer 
+									gave me the opportunity to assist him with building a full airplane out of foam core. Using  
+									<strong>DesignCad 3D</strong>, we drafted cross sections of an airplane wing, converted the 
+									coordinates to G-Code with  <strong>FoamWorks</strong>, and ran a hot-wire CNC machine with  
+									<strong>Mach 3 Mill</strong>. This was my first ever experience with engineering (despite it 
+									being mechanical engineering!) and cemented my drive to pursue engineering as a career.
+								</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							 	<%= image_tag('campbell.jpg', class: 'image fit thumb') %>
+								<h3><strong>Live Audio Engineering at Campbell Hall</strong></h3>
+								<p>
+									I also work at UCSB's largest lecture hall as a student audio engineer and stagehand. 
+									The hall holds classes for UCSB students during the day and presents shows with professional 
+									lecturers, musicians, and stage troupes at night. Mixing live audio for over  <strong>800 people</strong> 
+									has taught me to have strong preparation, clear communication, and calm patience during high pressure 
+									situations where mistakes are immediately noticable.
+								</p>
 							</article>
+						<!--
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3>Nunc enim commodo aliquet</h3>
@@ -79,7 +113,7 @@
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 						-->
-						<!-- </div> -->
+						</div>
 					
 						<ul class="actions">
 							<li><a href="https://db.tt/vK2edMiA" class="button">View my Resume</a></li>
@@ -107,6 +141,11 @@
 									<h3 class="icon fa-graduation-cap"><span class="label">CISSP</span></h3>
 									<strong>Long-term plan:</strong> Obtaining <strong><font color="#0C7054">CISSP</font></strong> certification.
 								</li>
+						<!--		<li>
+									<h3 class="icon fa-gamepad"><span class="label">Gamepad</span></h3>
+									
+								</li>
+						-->
 							</ul>
 					</section>
 
@@ -115,7 +154,7 @@
 				<!-- Contact -->
 					<section id="contact">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						
 					<!--	Message input box. Learn how to mail to my inbox.
 						<div class="row">
 							<div class="8u 12u$(small)">
@@ -150,7 +189,7 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						<!--</div>-->
 					</section>
 
 				<!-- Four -->
