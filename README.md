@@ -11,3 +11,4 @@ Here are all the files if you're curious about how the page is built.
 Looking into:
 * Cleaning up Font Awesome remains
 * Adding beginning blurb
+* Fixing background and bolding for heroku
