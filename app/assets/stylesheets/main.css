@@ -1605,6 +1605,9 @@
 		color: #4B4B4B;
 		margin: 0 0 2em 0;
 	}
+	li {
+		color: #4B4B4B;
+	}
 
 	/* Paragraph header text color */
 	h1, h2, h3, h4, h5, h6 {
