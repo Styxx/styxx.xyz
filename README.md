@@ -10,7 +10,7 @@ Built with:
 
 To-do:
 
-* Projects Section
+* Projects Section (miku, ulti, mezzo, foam, connect4)
 * Ultimate section
 * Learning section
 * Figure out unsplash bg
