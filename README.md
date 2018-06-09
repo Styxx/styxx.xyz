@@ -16,6 +16,9 @@ To-do:
 * Figure out unsplash bg
 * Yardi content (RC logo and blurb)
 * Various css aesthetic fixes
+* Push to Amazon buckets
+* Route domain to bucket page w/ masking
+* SSL Cert
 
 
 Oh hey, it's my **[Twitter](https://www.twitter.com/Styxx__)**.
