@@ -10,13 +10,10 @@ Built with:
 
 To-do:
 
-* Refine learning section
 * Figure out unsplash bg issue
 * Yardi logo
 * Various css aesthetic fixes
-* Push to Amazon buckets
-* Route domain to bucket page w/ masking
-* SSL Cert
+* SSL Cert - Let's Encrypt
 
-
+---
 Oh hey, it's my **[Twitter](https://www.twitter.com/Styxx__)**.
