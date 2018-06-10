@@ -3,18 +3,17 @@
 
 Built with:
 
-* Code Editor:**[Atom](https://atom.io/)**
+* Code Editor: **[Atom](https://atom.io/)** - I like it. It's not bad. :)
 * Layout: **[HTML5 UP's](https://html5up.net/)** dynamic page "Strata"
 * Pictures: **[Unsplash](https://unsplash.com/)**
 * Deployment: Amazon AWS S3 buckets
 
 To-do:
 
-* Projects Section (miku, ulti, mezzo, foam, connect4)
-* Ultimate section
-* Learning section
+* Resume link
+* Refine learning section
 * Figure out unsplash bg
-* Yardi content (RC logo and blurb)
+* Yardi logo?
 * Various css aesthetic fixes
 * Push to Amazon buckets
 * Route domain to bucket page w/ masking
