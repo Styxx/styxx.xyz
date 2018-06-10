@@ -1,5 +1,5 @@
 # Personal Page - styxx.xyz v.2
-#### Now with 100% less Ruby!
+#### Now with 99.9% less Ruby!
 
 Built with:
 
@@ -10,10 +10,9 @@ Built with:
 
 To-do:
 
-* Resume link
 * Refine learning section
-* Figure out unsplash bg
-* Yardi logo?
+* Figure out unsplash bg issue
+* Yardi logo
 * Various css aesthetic fixes
 * Push to Amazon buckets
 * Route domain to bucket page w/ masking
